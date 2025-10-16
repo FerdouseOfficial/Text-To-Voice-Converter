@@ -44,16 +44,27 @@ span {
   margin-bottom: 30px;
   /* resize: none; */
 }
-.hero textarea::placeholder{
-    font-size: 16px;
+.hero textarea::placeholder {
+  font-size: 16px;
 }
 .hero select {
   padding: 10px 90px;
   border-radius: 20px;
 }
-.row{
-    width: 600px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.row {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  background-color: #ff2963;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 30px;
+  border-radius: 35px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
 }
