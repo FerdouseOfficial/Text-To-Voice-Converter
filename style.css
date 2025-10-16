@@ -57,17 +57,17 @@ span {
   align-items: center;
   gap: 20px;
 }
-.row button img{
-    
-}
-
-button {
-  background-color: #ff2963;
-  color: #fff;
-  font-size: 16px;
-  padding: 10px 30px;
-  border-radius: 35px;
-  border: 0;
-  outline: 0;
-  cursor: pointer;
+  button {
+    background-color: #ff2963;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+  }
+button img{
+    width: 16px;
+    margin-right: 10px;
 }
