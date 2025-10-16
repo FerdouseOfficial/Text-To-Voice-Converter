@@ -13,24 +13,47 @@
   justify-content: center;
   align-items: center;
   /* position: relative; */
+  color: #fff;
 }
 
-.hero h1{
-    font-size: 45px;
-    font-weight: 500;
-    margin-top: -50px;
-    margin-bottom: 50px;
+.hero h1 {
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: -50px;
+  margin-bottom: 50px;
 }
 
-.hero textarea{
-    /* position: absolute; */
-    height: 400px;
-    width: 50%;
+span {
+  color: #ff2963;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
 }
-
-span{
-    color: #ff2963;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 6px;
+.hero textarea {
+  /* position: absolute; */
+  width: 600px;
+  height: 250px;
+  background-color: #403d84;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  padding: 20px;
+  color: #fff;
+  border-radius: 10px;
+  resize: none;
+  margin-bottom: 30px;
+  /* resize: none; */
+}
+.hero textarea::placeholder{
+    font-size: 16px;
+}
+.hero select {
+  padding: 10px 90px;
+  border-radius: 20px;
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
