@@ -57,6 +57,9 @@ span {
   align-items: center;
   gap: 20px;
 }
+.row button img{
+    
+}
 
 button {
   background-color: #ff2963;
